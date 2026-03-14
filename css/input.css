@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@layer components{
+
+.section-title{
+@apply text-3xl font-bold text-center mb-12 text-white;
+}
+
+.nav-link{
+@apply text-gray-300 hover:text-pink-400 transition;
+}
+
+.project-card{
+@apply bg-zinc-900 p-4 rounded-xl hover:-translate-y-1 hover:shadow-xl transition;
+}
+
+.skill-card{
+@apply bg-zinc-900 p-6 rounded-xl;
+}
+
+}
+
+body{
+background:#1b1b1b;
+font-family:'Poppins', sans-serif;
+}

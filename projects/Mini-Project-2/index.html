@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alas House Cafe</title>
+<link rel="stylesheet" href="./css/output.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="font-sans text-gray-800">
+
+<!-- =====================
+NAVBAR
+===================== -->
+<header class="absolute w-full z-20 bg-black/40 backdrop-blur-sm">
+  <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-6 text-white">
+    <h1 class="text-xl font-bold">Alas House</h1>
+    <nav class="hidden md:flex gap-8 font-medium">
+      <a href="#home" class="hover:text-amber-300 transition">Home</a>
+      <a href="#menu" class="hover:text-amber-300 transition">Menu</a>
+      <a href="#foods" class="hover:text-amber-300 transition">Foods</a>
+      <a href="#contact" class="hover:text-amber-300 transition">Contact</a>
+    </nav>
+    <div class="flex gap-4 items-center">
+      <button class="hover:text-amber-300 transition">Sign In</button>
+      <button class="btn-primary text-sm">Sign Up</button>
+    </div>
+  </div>
+</header>
+
+<!-- =====================
+HERO
+===================== -->
+<section id="home" class="relative h-[50vh] bg-[url('../img/index-background.jfif')] bg-cover bg-center flex items-center">
+  <div class="absolute inset-0 bg-black/60"></div>
+  <div class="relative max-w-7xl mx-auto px-6 text-white">
+    <p class="text-lg mb-4">We've got your morning covered with</p>
+    <h1 class="text-5xl font-bold mb-4">Coffee</h1>
+    <p class="max-w-md text-gray-200">
+      Start your day with a perfect cup of coffee.
+      Discover the best flavours that will brighten your morning.
+    </p>
+    <button class="btn-primary mt-6">Order Now</button>
+  </div>
+</section>
+
+<!-- =====================
+ABOUT
+===================== -->
+<section class="py-24">
+  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+    <div>
+      <h2 class="section-title">Discover the best coffee</h2>
+      <p class="section-sub">
+        Alas House is a cozy coffee shop that provides high quality coffee
+        to boost productivity and improve your mood.
+      </p>
+      <button class="btn-secondary mt-6">Learn More</button>
+    </div>
+    <img src="./img/index.webp" class="w-full rounded-xl object-cover">
+  </div>
+</section>
+
+<!-- =====================
+DRINK MENU
+===================== -->
+<section id="menu" class="py-24 bg-[#fff7ef]">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="text-center mb-16">
+      <h2 class="section-title">Enjoy a new blend of coffee style</h2>
+      <p class="section-sub">Explore our delicious drink menu</p>
+    </div>
+
+    <!-- COFFEE -->
+    <h3 class="text-2xl font-semibold text-amber-900 mb-6">Coffee</h3>
+    <div class="grid md:grid-cols-3 lg:grid-cols-5 gap-6">
+      <div class="menu-card">
+        <img src="./img/coffee/espresso.png" class="menu-img w-36 h-36 mx-auto mt-4 object-contain">
+        <div class="p-4 text-center">
+          <button class="btn-primary mt-3 text-sm">Order</button>
+        </div>
+      </div>
+      <div class="menu-card">
+        <img src="./img/coffee/cappuccino.png" class="menu-img w-36 h-36 mx-auto mt-4 object-contain">
+        <div class="p-4 text-center">
+          <button class="btn-primary mt-3 text-sm">Order</button>
+        </div>
+      </div>
+      <div class="menu-card">
+        <img src="./img/coffee/affogato.png" class="menu-img w-36 h-36 mx-auto mt-4 object-contain">
+        <div class="p-4 text-center">
+          <button class="btn-primary mt-3 text-sm">Order</button>
+        </div>
+      </div>
+      <div class="menu-card">
+        <img src="./img/coffee/americano.png" class="menu-img w-36 h-36 mx-auto mt-4 object-contain">
+        <div class="p-4 text-center">
+          <button class="btn-primary mt-3 text-sm">Order</button>
+        </div>
+      </div>
+      <div class="menu-card">
+        <img src="./img/coffee/vanilla-latte.png" class="menu-img w-36 h-36 mx-auto mt-4 object-contain">
+        <div class="p-4 text-center">
+          <button class="btn-primary mt-3 text-sm">Order</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- NON COFFEE -->
+    <h3 class="text-2xl font-semibold text-amber-900 mt-16 mb-6">Non Coffee</h3>
+    <div class="grid md:grid-cols-3 lg:grid-cols-6 gap-6">
+      <div class="menu-card">
+        <img src="./img/non-coffee/chocolate.png" class="menu-img w-36 h-36 mx-auto mt-4 object-contain">
+        <div class="p-4 text-center">
+          <button class="btn-primary mt-3 text-sm">Order</button>
+        </div>
+      </div>
+      <div class="menu-card">
+        <img src="./img/non-coffee/taro.png" class="menu-img w-36 h-36 mx-auto mt-4 object-contain">
+        <div class="p-4 text-center">
+          <button class="btn-primary mt-3 text-sm">Order</button>
+        </div>
+      </div>
+      <div class="menu-card">
+        <img src="./img/non-coffee/red-velvet.png" class="menu-img w-36 h-36 mx-auto mt-4 object-contain">
+        <div class="p-4 text-center">
+          <button class="btn-primary mt-3 text-sm">Order</button>
+        </div>
+      </div>
+      <div class="menu-card">
+        <img src="./img/non-coffee/matcha.png" class="menu-img w-36 h-36 mx-auto mt-4 object-contain">
+        <div class="p-4 text-center">
+          <button class="btn-primary mt-3 text-sm">Order</button>
+        </div>
+      </div>
+      <div class="menu-card">
+        <img src="./img/non-coffee/lychee-tea.png" class="menu-img w-36 h-36 mx-auto mt-4 object-contain">
+        <div class="p-4 text-center">
+          <button class="btn-primary mt-3 text-sm">Order</button>
+        </div>
+      </div>
+      <div class="menu-card">
+        <img src="./img/non-coffee/lemon-tea.png" class="menu-img w-36 h-36 mx-auto mt-4 object-contain">
+        <div class="p-4 text-center">
+          <button class="btn-primary mt-3 text-sm">Order</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================
+FOODS
+===================== -->
+<section id="foods" class="py-24">
+  <div class="max-w-7xl mx-auto px-6">
+    <h2 class="section-title text-center mb-16">Foods Menu</h2>
+    <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div class="menu-card">
+        <img src="./img/foods/mac&cheese.png" class="menu-img w-36 h-36 mx-auto mt-4 object-contain">
+        <div class="p-4 text-center">
+          <button class="btn-primary mt-3 text-sm">Order</button>
+        </div>
+      </div>
+      <div class="menu-card">
+        <img src="./img/foods/spaghetti-aglio-alio.png" class="menu-img w-36 h-36 mx-auto mt-4 object-contain">
+        <div class="p-4 text-center">
+          <button class="btn-primary mt-3 text-sm">Order</button>
+        </div>
+      </div>
+      <div class="menu-card">
+        <img src="./img/foods/chicken-curry.png" class="menu-img w-36 h-36 mx-auto mt-4 object-contain">
+        <div class="p-4 text-center">
+          <button class="btn-primary mt-3 text-sm">Order</button>
+        </div>
+      </div>
+      <div class="menu-card">
+        <img src="./img/foods/beef-curry-udon.png" class="menu-img w-36 h-36 mx-auto mt-4 object-contain">
+        <div class="p-4 text-center">
+          <button class="btn-primary mt-3 text-sm">Order</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================
+SUBSCRIBE SECTION
+===================== -->
+<section class="relative h-96 bg-[url('../img/index-footer.avif')] bg-cover bg-center flex items-center">
+  <div class="absolute inset-0 bg-black/50"></div>
+  <div class="relative max-w-4xl mx-auto px-6 text-center text-white">
+    <h2 class="text-3xl font-bold mb-4">Subscribe to get the latest news</h2>
+    <p class="mb-8">
+      Don't miss out on our latest news, updates, tips, and special offers.
+    </p>
+    <form class="flex flex-col sm:flex-row justify-center gap-4">
+      <input type="email" placeholder="Enter your email" class="px-4 py-3 rounded-full w-full sm:w-auto flex-1 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-amber-400 text-black">
+      <button type="submit" class="btn-primary px-6 py-3 rounded-full">Subscribe</button>
+    </form>
+  </div>
+</section>
+
+<!-- =====================
+FOOTER
+===================== -->
+<footer id="contact" class="bg-amber-950 text-gray-300 py-16">
+  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-10">
+    <div>
+      <h3 class="text-white text-lg font-semibold">Alas House</h3>
+      <p class="mt-4 text-sm">Aesthetic cafe serving delicious coffee and food.</p>
+      <div class="flex gap-4 mt-4 text-2xl">
+        <a href="https://facebook.com" target="_blank" class="hover:text-amber-400"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com" target="_blank" class="hover:text-amber-400"><i class="fab fa-twitter"></i></a>
+        <a href="https://wa.me/6281234567890" target="_blank" class="hover:text-amber-400"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://youtube.com" target="_blank" class="hover:text-amber-400"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+    <div>
+      <h4 class="text-white mb-3">Menu</h4>
+      <ul class="space-y-2 text-sm">
+        <li>Coffee</li>
+        <li>Non Coffee</li>
+        <li>Main Course</li>
+        <li>Snack</li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="text-white mb-3">Contact</h4>
+      <p>Jakarta, Indonesia</p>
+      <p>alashouse@email.com</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
